@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,53 @@
   <title>Div, span, id and class</title>
   <style>
     .card {
-        border: 1px solid #ccc;
-        background: #f4f4f4;
-        padding: 20px;
-        margin-bottom: 10px;
-      }
+      border: 1px solid #ccc;
+      background: #f4f4f4;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
 
     .enhance {
       color: yellow;
-      background-color:black;
+      background-color: black;
     }
   </style>
 </head>
+
 <body>
- 
+  <div id="main-header" class="card">
+    <h1>My Website</h1>
+    <p>A website about me</p>
+  </div>
+
+  <ul id="main-nav">
+    <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+    <li><a href="#" target="_blank" rel="noopener noreferrer">About</a></li>
+    <li><a href="#" target="_blank" rel="noopener noreferrer">Contact</a></li>
+  </ul>
+  <div id="about" class="card">
+    <h3>About</h3>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa consequatur deserunt voluptatibus.
+      <span class="enhance">
+        Excepturi minima natus ex fuga veniam voluptates culpa! Asperiores iste nobis, iusto assumenda nemo odio remiure
+        totam,</span>
+       exercitationem inventore debitis vitae, consectetur molestiae consequuntur. Perspiciatis quas laborum
+      impedit!
+      Aliquam repellendus magnam maxime nesciunt totam, nam earum laudantium!
+    </p>
+  </div>
+  <div id="contact" class="card">
+    <h3>Contact</h3>
+    <ul>
+      <li>Address : 221B, Bakers Street, London</li>
+      <li>Phone: 99999999</li>
+      <li>Email: sherlock@gmail.com</li>
+    </ul>
+  </div>
+  <div id="footer">
+    <p>Copyright &copy 2021</p>
+  </div>
 </body>
+
 </html>
