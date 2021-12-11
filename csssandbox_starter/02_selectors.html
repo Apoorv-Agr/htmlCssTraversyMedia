@@ -1,15 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CSS Selectors</title>
   <style>
-    
+    /* Element Selector */
+    body {
+      background-color: rgb(77, 77, 77);
+    }
+
+    /* . is for class selectors */
+    .primary-heading {
+      color: rgb(18, 138, 218);
+    }
+
+    /* # is for id selectors */
+    #welcome {
+      background-color: #f4f4f4;
+    }
+
+    /* Multiple Selectors */
+    #welcome,
+    #about {
+      border: 1px solid #f4f4f4;
+      padding: 10px;
+      margin: 0px 0px 5px 0px;
+    }
+    /* Nested Selectors*/
+    #welcome p {
+      font-size: 20px;
+    }
   </style>
 </head>
+
 <body>
-  
+  <div id="welcome">
+    <h2 class="primary-heading">Welcome</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis exercitationem suscipit totam quibusdam vero
+      neque excepturi beatae? Praesentium ducimus a fugit debitis totam iusto sapiente temporibus molestiae. Nostrum
+      neque placeat, vitae, ad sapiente earum expedita exercitationem qui illo magni aperiam. Itaque ea excepturi
+      consequatur animi ad aliquid dolores officiis in.</p>
+  </div>
+  <div id="about">
+    <h2>About</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo totam eum commodi in reprehenderit repellendus
+      perspiciatis illo deleniti. Molestias ullam corrupti minus ut! Debitis neque architecto blanditiis, cum obcaecati
+      impedit ducimus fugit. Laudantium accusamus ab nemo delectus at placeat, nostrum et quod ratione dolorum officia
+      molestias nam quibusdam! Autem illum molestias veniam obcaecati unde ad vitae laboriosam saepe dolorum quasi animi
+      quam porro eaque, nostrum dignissimos ducimus facere nulla? Sit?</p>
+  </div>
 </body>
+
 </html>
